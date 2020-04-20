@@ -6,8 +6,8 @@ botmail="waterinformation@webex.bot"
 
 # Ponha aqui os dados do seu Webhook
 # webhook_url o endereco publico onde esta o app
-webhook_url=""
+webhook_url="https://botwebex.herokuapp.com/"
 # exemplo webhook_url="https://mywebhook.com"
 # webhook_name e' o nome do gatilho que o Webex Teams gera para seu aplicativo entender
-webhook_name=""
+webhook_name="bot 2 - water information"
 # exemplo webhook_name="meuprimeirochatbot"

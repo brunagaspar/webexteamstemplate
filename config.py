@@ -1,7 +1,7 @@
 # Ponha aqui os dados do seu robozinho
-bottoken=''
+bottoken='NzEzZDk2NTAtODcxNy00YzIwLTk5NGItYTNhYTYzNzczZjk2ZjY3NDk3ODQtYTUy_PF84_a892a6ed-b823-46b8-8336-847d8f4722ae'
 #exemplo='Yia0dsfdsfsdf...' - tirado do site developer.webex.com
-botmail=""
+botmail="waterinformation@webex.bot"
 #exemplo='mybotmail@spark.io' - tirado do site developer.webex.com
 
 # Ponha aqui os dados do seu Webhook

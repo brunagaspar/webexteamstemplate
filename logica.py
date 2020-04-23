@@ -21,7 +21,7 @@ def logica(comando,usermail):
     box=sp[0]
     
     # Para o caso de nenhum pedido coberto aqui
-    mais="\nEscreva 'mais' para saber suas opções"
+    oi="\nEscreva 'oi' para saber suas opções"
     
     # 21.11.19
     # variavel arquivo para o caso do bot devolver arquivos anexados
@@ -36,7 +36,7 @@ def logica(comando,usermail):
     
     # Uso da funcao "mais"
 
-    if box == "oi; olá; teste" and len(sp)<2:
+    if box == "oi" and len(sp)<2:
         msg="Olá, Humano! Antes de liberar o escoamento da água utilizada nos processos indústriais, verifique comigo se o tanque especificado já está pronto para voltar ao meio ambiente. Escreva:\n"
         msg=msg+"Qual tanque você gostaria de consultar? (exemplo: tanque 1)\n"
 

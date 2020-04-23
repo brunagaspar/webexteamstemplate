@@ -44,7 +44,7 @@ if box == "123456" and len(sp)<2:
 		msg="Teste"
 
     if len(sp)>2:
-        tema=sp[2]
+        tema=sp[100]
         msg=maissobre(tema)
         
     # Funcoes que usam outras APIs

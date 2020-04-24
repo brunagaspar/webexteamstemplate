@@ -39,11 +39,6 @@ def logica(comando,usermail):
     if box == "oi" and len(sp)<2:
         msg="Olá, Humano! Antes de liberar o escoamento da água utilizada nos processos indústriais, verifique comigo se o tanque especificado já está pronto para voltar ao meio ambiente. Escreva:\n"
         msg=msg+"Qual tanque você gostaria de consultar? (exemplo: tanque 1)\n"
-	
-	box == "tanque 1":
-	msg="A temperatura atual do tanque 1 é 15ºC\n"
-
-
 
     if len(sp)>2:
         tema=sp[2]

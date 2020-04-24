@@ -37,8 +37,8 @@ def logica(comando,usermail):
     # Uso da funcao "mais"
 
     if box == "oi" and len(sp)<2:
-        msg="Olá, Humano! Antes de liberar o escoamento da água utilizada nos processos indústriais, verifique comigo se o tanque especificado já está pronto para voltar ao meio ambiente. Escreva:\n"
-        msg=msg+"Qual tanque você gostaria de consultar? (exemplo: tanque 1)\n"
+        msg="Olá, Humano! Antes de liberar o escoamento da água utilizada nos processos indústriais, verifique comigo se o tanque especificado já está pronto para voltar ao meio ambiente. De qual tanque você gostaria de consultar a temperatura?\n"
+        msg=msg+"Digite 1 para ver o Tanque A.\n"
 
 
 

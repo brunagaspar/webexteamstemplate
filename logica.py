@@ -36,13 +36,9 @@ def logica(comando,usermail):
     
     # Uso da funcao "mais"
 
-    if box == "oi"
+    if box == "oi" 
         msg="Olá, Humano! Antes de liberar o escoamento da água utilizada nos processos indústriais, verifique comigo se o tanque especificado já está pronto para voltar ao meio ambiente. De qual tanque você gostaria de consultar a temperatura?\n"
         msg=msg+"Digite 1 para ver o Tanque A.\n"
-
-	if box == "1"
-	msg="temperatura do tanque A xx graus. 
-
 
         
     # Funcoes que usam outras APIs

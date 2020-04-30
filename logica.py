@@ -18,7 +18,7 @@ def logica(comando,usermail):
     comando = comando.lower()
     box=comando
 
-    while box == "oi" or box == "ola" or box == "hey" or box == "ei" or box == "alo" or box == "teste" or box =="Oi" or box == "Olá":
+    while box == "oi" or box == "ola" or box == "bot oi" or box == "hey" or box == "ei" or box == "alo" or box == "teste" or box =="Oi" or box == "Olá":
         msg=""
         arquivo=""
         msg= "Olá Humano, antes de liberar o escoamento da água utilizada nos processos industriais, verifique comigo se o tanque especificado está pronto para voltar ao meio ambiente.\n" 
@@ -141,6 +141,13 @@ def logica(comando,usermail):
         msg=msg+ "(2) - Buscar histórico de temperatura semanal\n"
         msg=msg+ "(3) - Buscar histórico de temperatura mensal\n"
 
+    elif box == "bot oi":
+        msg= "Olá Humano, antes de liberar o escoamento da água utilizada nos processos industriais, verifique comigo se o tanque especificado está pronto para voltar ao meio ambiente.\n" 
+        msg=msg+ "Qual das seguintes opções deseja ?\n"   
+        msg=msg+ "(1) - Temperatura atual da água\n"  
+        msg=msg+ "(2) - Buscar histórico de temperatura semanal\n"
+        msg=msg+ "(3) - Buscar histórico de temperatura mensal\n"
+	
     else:
         msg="Não entendi o que você quis dizer, por favor tente dizer 'oi' pra mim"
 
